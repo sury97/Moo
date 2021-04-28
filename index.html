@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8”>
+	<title>Moo</title>
+	<meta name="description content="미얀마 전통 술 “Moo” 를 소개합니다">
+
+									   
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200; 300;700&display=swap" rel="stylesheet">
+<script type="text/javascript" src="wow.min.js"></script>
+<style type="text/css">
+	@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;700&display=swap');
+	html{font-family: 'Work Sans', sans-serif; background:  #c1b3b1; box-sizing: border-box;}
+	body,img,p,div,ul{margin: 0; position: relative;}
+	main,section{margin: auto;}
+	nav{width: 100%;  position: fixed; z-index: 2}
+	nav ul{list-style-type: none; padding: 30px;}
+	nav li{float: left; padding-left: 25px; padding-right: 25px }
+	img{position: absolute;}
+	main ul{list-style-type: none; padding: 0; position: absolute;}
+	main{height: 1200px;}
+	section{padding-top:100px; height: 1000px;}
+	span{font-weight: 700;}
+	p{text-align: center;}
+	footer .row{display: flex; justify-content: space-between; height: 100px;}
+	a{text-decoration: none;}
+
+
+	.row{margin: auto; width: 1200px; padding-top: 30px;}
+
+	.left{float: left;}
+	.right{float: right;}
+
+	.font1{font-size: 175pt;}
+	.font2-1{font-size: 75pt; letter-spacing: -10pt;}
+	.font2-2{font-size: 50pt; line-height: 100%;}
+	.font2-3{font-size: 1.8em; line-height: 150%;}
+	.font2-4{font-size: 1.8em; line-height: 100%;}
+	.font2{font-size: 40px;}
+	.font3{font-size: 1.5em; line-height: 150%}
+	.font4{font-size: 1em;}
+
+	.align{text-align: left;}
+	.line{line-height: 170%}
+
+	.ex-light{font-weight: 200}
+	.light{font-weight: 300;}
+	.bold{font-weight: 700;}
+
+	.color{color: black;}
+    .moo{background-image: url('bg2.jpg'); background-repeat: no-repeat; background-size: cover; height: 1150px; }
+	main p{position: absolute;}
+	#m{top: 150px; left: 48%;}
+	#tem{top: 200px; left: 40%}
+	#plus{top: 280px; left: 35%;}
+	#C{top: 330px; left: 61%}
+
+	
+	#moo{top: 400px; left: 30%; width: 40%; }
+    
+
+	.rice{width: 200px; top:610px; left: 110px; animation: rice 1s;}
+	@keyframes rice{0%{opacity: 0%} 100%{opacity: 100%}}
+	.nuruk{width:300px; top: 600px; left: 480px; animation: nuruk 1.5s;}
+	@keyframes nuruk{0%{opacity: 0%} 100%{opacity: 100%}}
+	.water{width:100px; top: 630px; left: 980px; animation: water 2s;}
+	@keyframes water{0%{opacity: 0%} 100%{opacity: 100%}}
+	
+	#clear{top:50px;}
+
+	.w-text{display: flex;}
+	#r{width: 400px;top:120px; left:-10px;}
+	#n{width: 400px;top:120px; left:5px;}
+	#wa{width: 400px;top:120px; left:25px;}
+	
+	.reviews{background-image: url('bg.jpg'); background-repeat: no-repeat; background-size: cover; height: 1100px; }
+	.box{display: flex; width: 1200px;}
+	.border{border: 0.75px solid #ded8c3; background:#ded8c3;}
+
+	.reviews1{width: 300px; height: 800px; margin: 20px; animation: reviews 1s;}
+	@keyframes reviews{from{left: -350px;} to{left: 0px;}}
+	#reviews1{width: 230px;height: 400px; top: 25px; left: 25px;}
+	#reviews1_text{top: 620px; left: 15px;max-width: 232px;} 
+
+	.reviews2{width: 560px; height: 800px; margin: 20px; animation: reviewss 1s;}
+	@keyframes reviewss{from{margin-top: 350px;} to{margin-top: 20px;}} 
+	#reviews2{width: 470px; top: 330px; left: 25px;}
+	#reviews2_text{left: 25px; max-width: 470px;} 
+
+	.reviews34{width: 300px; height: 800px; margin: 20px}
+	.reviews3{width: 100%; height:375px; margin-bottom:50px;  animation: reviewsss 1s;}
+	@keyframes reviewsss{from{right : -350px;} to{right: 0px;}}
+	#reviews3{width: 225px; top: 25px; left: 25px} 
+	.reviews4{width: 100%; height: 375px;margin-top:50px;  animation: reviewssss 1.25s;}
+	@keyframes reviewssss{from{right : -350px;} to{right: 0px;}}
+	#reviews4_text{top: 25px; left: 25px; max-width: 230px;} 
+
+	.promo1{width: 400px; height: 770px; margin: 20px; z-index: -2}
+	.promo23{width: 740px; height: 770px; margin: 20px; z-index: -2}
+	.promo2{width: 740px; height: 90px; margin-bottom: 40px;} 
+	#promo2_text{top: 25px; left: 50px} 
+	.promo3{width: 740px; height: 640px; margin-top: 40px;} 
+	#promo3_text{top: 50px;left: 50px; max-width: 640px;}
+	#sticker1{width: 200px; top:0px; animation: sticker 1s infinite;  animation-direction:alternate;} 
+	#sticker2{width: 200px; top:740px; left: 1000px;}
+	@keyframes sticker{0%{transform: rotate(20deg)} 100%{transform: rotate(-20deg)}}
+
+
+	#promo{width: 330px;height: 450px;top:85px; left: 25px;}
+	#name{top:700px; left:25px;}
+
+	
+	#moo1{width: 500px; left: -100px;}
+	#moo2{width: 450px; left: 400px;}
+	#moo3{width: 450px; right:-100px;}
+	#moo4{width: 450px; top:600px; left: -100px;}
+	#moo5{width: 450px; top:400px; left: 420px;}
+	#moo6{width: 400px; top:450px; right: -100px;}
+	#emotion{top:1350px; left: 560px;}
+	#beautiful{top: 1200px;}
+	.life{padding-top:500px; height: 1000px;}
+
+
+
+</style>
+</head>
+
+<body>
+<nav>
+	<ul class="left font3 light color">
+		<li><span>"MOO"</span> Burmese Booze </li>
+	</ul>
+	
+</nav>
+
+<main>
+	<section class="moo">
+	<img src="moo.png" id="moo">
+	<p class="font3 light color" id="m">Moo</p>
+	<p class="font2-1 ex-light color" id="plus">+</p>
+	<p class="font1 ex-light color" id="tem">7%</p>
+	<p class="font2-1 ex-light color" id="C">Alc Vol</p>
+</section>
+</main>
+
+<section>
+		<p class="font2-2 color light">Moo's <span>Story</span></p>
+	<div class="row"> 
+	<p class="font2-3 bold color" id="clear"><br>Moo은 “취하다” 는 뜻 </br> <br> 요즘 미얀마 군부 쿠데타 사태로 인해 많은 술, 맥주 군부쪽 사람들 회사, 군부 투자 기업, 프랜차이즈 브랜드들을 보이콧을 하기 시작했습니다. </br> <br> 보이콧을 하다 보니 마실 수 있는 술이나 맥주 브랜드 거의다 없어졌고 다음으로 나오는 미얀마 전통 술을 업그레이드 시켜 만들었던 유기농 수제술 브랜드입니다. </br> <br> 레시피</br> </p>
+
+
+		<img src="rice.png" class="rice wow">
+		<img src="nuruk.png" class="nuruk wow">
+		<img src="water.png" class="water wow">
+		
+			<div class="w-text">
+				<p class="font2-3 bold color" id="r">찹쌀</p>
+				<p class="font2-3 bold color" id="n">누룩</p>
+				<p class="font2-3 bold color" id="wa">물 </p>
+			</div>
+		
+</section>
+
+<section class="reviews">
+		<p class="font2-2 color light"><span>Moo</span>'s Reviews</p>
+	<div class="row">
+		<div class="box">
+		<div class="reviews1 border wow"><img src="1.jpeg" id="reviews1">
+			<div id="reviews1_text">
+				<p class="font2-3 bold color align">혹시 음료수?</p><br><p class="font3 light color align">독한 술 맛은 아닌 약간 음료수 비슷해요!</p>
+			</div>
+		</div>
+			<div class="reviews2 border wow"><img src="3.jpeg" id="reviews2">
+			<div id="reviews2_text">
+				<br><p class="font2 bold color align">좋아요!</p><br><p class="font3 light color align">생각보다 너무 향이 좋아요. 5병 마셨는데도 가격도 싸고 맛도 좋아서 앞으로도 구매할 예정이에요!</p>
+			</div>
+		</div>
+			<div class="reviews34">
+			<div class="reviews3 border wow"><img src="8.jpeg" id="reviews3"></div>
+			<div class="reviews4 border wow" id="reviews4">
+				<div id="reviews4_text">
+				<p class="font2-3 bold color align">Perfect!!</p><br><p class="font3 light color align">패키징도 예쁘고 너무 맛있습니다. 취하고 싶은 분들은 조금 안 좋아할 수도 있지만 달달한 술 맛을 좋아하시는 분들위해 너무 추천드립니다.</p>
+				</div>
+			</div>
+		</div>
+		</div>
+			
+
+	</div>
+</section>
+
+<section>
+	<p class="font2-2 color light"><span>Moo</span>'s Promotion</p>
+	<div class="row">
+		<div class="box">
+		<div class="promo1 border">
+			<img src="2.jpeg" id="promo"><p class="font2-3 bold color align" id="name">Stay Tuned!</p>
+		</div>
+		<div class="promo23">
+		<div class="promo2 border">
+			<p class="font2-3 light color align" id="promo2_text">D-DAY &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span>2021 / 05 / 23 </span></p>
+		</div>
+		
+		<div class="promo3 border">
+			<div id="promo3_text">
+				<p class="font3 light color align line">10병 구매할 때마다 번호 적혀있는 쿠폰 1장, <br><br>5월 23일에 랜덤으로 추천!! <br><br> 쿠폰 중 당첨된 번호 있으신 분들에게 오아시스 호텔에 무료 숙박권 드립니다. <span class="What wow">과연 행운의 주인공은 누가 될지 두근두근♥</span></p>
+				</div>
+			</div>
+			</div>
+		</div>
+	<img src="sticker1.png" id="sticker1" class="drag" style="top:100px;left:100px;">
+	</div>
+	
+</section>
+
+<section>
+	<div class="row">
+	<img src="3.jpeg" id="moo3">
+	<img src="4.jpeg" id="moo4">
+	<img src="11.jpeg" id="moo5">
+	<img src="12.jpeg" id="moo6">
+	<img src="13.jpeg" id="moo1">
+	<img src="10.jpeg" id="moo2">
+	<p class="font2 color light" id="beautiful">Have a wonderful day with Moo!</p>
+	
+	</div>
+</section>
+
+
+<footer>
+<div class="row">
+	<p class="left font4 light color footer">원트</p>
+	<p class="left font4 light color footer">웹인터페이스디자인</p>
+	<p class="left font4 light color footer">16102372</p>
+	<p class="left font4 light color footer">2021.04.29</p>
+</footer>
+
+	<script type="text/javascript">
+		//드래그앤 드롭 코드 시작	
+	(function(){
+	var d = false;
+	var target,cx,cy,lx,ly;
+	var t = document.getElementsByClassName("drag");
+	for(var i=0; i<t.length; i++){
+	t[i].style.display = "block";
+	t[i].style.position = "absolute";
+	t[i].style.cursor = "move";
+	t[i].ondragstart = function(e){e.preventDefault();};
+	t[i].onmousedown = function(e){ d = true; target = e.target; cx = e.clientX; cy = e.clientY; lx=parseInt(e.target.style.left); ly=parseInt(e.target.style.top);console.log(lx,ly);}
+	t[i].onmouseup = function(){ d = false;}
+	window.onmousemove = function(e){
+	if(d){ target.style.left = (lx + e.clientX - cx) + "px"; target.style.top = (ly + e.clientY - cy) + "px";}
+	}
+	}
+	})();
+	//드래그앤 드롭 코드 끝
+
+		new WOW().init();
+	</script>
+
+</body>
+</html>
