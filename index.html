@@ -237,29 +237,5 @@
 	<p class="left font4 light color footer">16102372</p>
 	<p class="left font4 light color footer">2021.04.29</p>
 </footer>
-
-	<script type="text/javascript">
-		//드래그앤 드롭 코드 시작	
-	(function(){
-	var d = false;
-	var target,cx,cy,lx,ly;
-	var t = document.getElementsByClassName("drag");
-	for(var i=0; i<t.length; i++){
-	t[i].style.display = "block";
-	t[i].style.position = "absolute";
-	t[i].style.cursor = "move";
-	t[i].ondragstart = function(e){e.preventDefault();};
-	t[i].onmousedown = function(e){ d = true; target = e.target; cx = e.clientX; cy = e.clientY; lx=parseInt(e.target.style.left); ly=parseInt(e.target.style.top);console.log(lx,ly);}
-	t[i].onmouseup = function(){ d = false;}
-	window.onmousemove = function(e){
-	if(d){ target.style.left = (lx + e.clientX - cx) + "px"; target.style.top = (ly + e.clientY - cy) + "px";}
-	}
-	}
-	})();
-	//드래그앤 드롭 코드 끝
-
-		new WOW().init();
-	</script>
-
 </body>
 </html>
